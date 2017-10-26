@@ -78,7 +78,11 @@ header {
 .subMenu ul li a {
   color: #000;
   text-decoration: none;
-  transition: all 1s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.subMenu-icon {
+  margin-right: 6px;
 }
 
 .subMenu ul li a:hover, .subMenu ul li.active a {
