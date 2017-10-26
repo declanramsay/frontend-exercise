@@ -1,9 +1,7 @@
-$(document).ready(function() {
-  $('.hamburger-icon').on('click touch', function(e) {
-    $('.subMenu').toggleClass('visible');
-    e.stopPropagation();
-    e.preventDefault();
-  });
+$('.hamburger-icon').on('click touch', function(e) {
+  $('.subMenu').toggleClass('visible');
+  e.stopPropagation();
+  e.preventDefault();
 });
 
 $(document).on('click touch', function(e) {
